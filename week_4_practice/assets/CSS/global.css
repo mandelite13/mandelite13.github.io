@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    padding-top: 50px;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* NAV BAR MENU */
+
+nav .main_container .menu {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 0 50px;
+    padding-top: 25px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+nav .main_container .menu:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+section {
+    position: relative;
+    padding-top: 20px;
+    width: 100vw;
+    height: 70vh;
+}
+
+.main_container {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+}
