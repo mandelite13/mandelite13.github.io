@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:9;
+}
+
+/* NAV BAR MENU */
+
+nav .main_container .menu {
+    position:relative;
+    width: 50px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    float: left;
+    margin: 0 20px;
+    padding:0 60px;
+    padding-top: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    font-size: small;
+}
+
+nav .main_container .menu:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.main_container {
+    color: white;
+	text-align: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+section {
+    position: relative;
+    margin: 0 auto;
+    align-content: center;
+    background-color: black;
+    padding-top: 20px;
+    width: 100vw;
+    height: 30vh;
+}
+
+section.map {
+    position: relative;
+    padding-top: 20px;
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+.main_container_ticket {
+    color: white;
+    float: inline-start;
+    margin: auto;
+    width: 50%;
+    padding: relative;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.button_click{
+    float:right;
+    padding-top: 11vh;
+    width: 20%;
+    padding-right: 10vw;
+    margin: 0 auto;
+}
+
+
+.venue_main_container {
+    padding-top: 30px;
+    color: white;
+    position: 0 relative;
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.diantara {
+    width: 80%;
+    margin:0 auto;
+    border: 1px solid #ffffff;
+}
