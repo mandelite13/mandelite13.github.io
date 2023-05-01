@@ -1,0 +1,33 @@
+h1,
+h2 {
+  font-family: mirzabold;
+  color: white;
+}
+
+.section1 {
+  background-image: url("../asset/home page/home bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vw;
+}
+
+.section1 h1 {
+  font-size: 6vw;
+}
+
+.blackoverlay {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 50%);
+  padding: 8vw 11vw;
+}
+
+.blackoverlay p {
+  font-family: opensansreg;
+  padding-top: 20px;
+  padding-left: 75px;
+  overflow-y: hidden;
+  font-size: 16px;
+}

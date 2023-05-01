@@ -1,0 +1,53 @@
+h1 {
+  font-family: mirzabold;
+  color: white;
+  font-size: 65px;
+  line-height: 90%;
+}
+
+.section1 {
+  background-image: url("../asset/bev food/Dum Dum Beverages.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 45vh;
+}
+
+.section2 {
+  background-image: url("../asset/bev food/Dum Dum foods.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 45vh;
+}
+
+.blackoverlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 70%);
+  padding: 8vw 11vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  background-color: rgba(94, 62, 45, 0.8);
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  width: 225px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: opensansreg;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(165, 129, 82, 1);
+}

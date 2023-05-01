@@ -1,0 +1,61 @@
+h1 {
+  color: white;
+  font-family: mirzareg;
+}
+
+.wrapper {
+  border-radius: 30px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hoverable {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.milk .hoverable {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 80%),
+    url("../asset/bev food/bev/Beverages - milk based.png");
+}
+
+.non .hoverable {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 80%),
+    url("../asset/bev food/bev/Beverages - non dairy.png");
+}
+
+.premium .hoverable {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 80%),
+    url("../asset/bev food/bev/Beverages - premium drinks.png");
+}
+
+.wrapper p {
+  font-family: nunitoreg;
+  font-size: 30px;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.wrapper .seemore {
+  font-family: opensansbold;
+  opacity: 1;
+}
+
+.wrapper .desc {
+  opacity: 0;
+}
+
+.wrapper:hover .hoverable {
+  filter: blur(5px);
+}
+
+.wrapper:hover .seemore {
+  opacity: 0;
+}
+
+.wrapper:hover .desc {
+  opacity: 1;
+}

@@ -1,0 +1,31 @@
+#back {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-family: mirzareg;
+  font-size: 50px;
+  color: white;
+  flex-grow: 1;
+}
+
+button {
+  background-color: rgba(165, 129, 82, 1);
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  width: 225px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: opensansreg;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.food-item img {
+  width: 300px;
+  margin: 40px 0 40px 100px;
+}

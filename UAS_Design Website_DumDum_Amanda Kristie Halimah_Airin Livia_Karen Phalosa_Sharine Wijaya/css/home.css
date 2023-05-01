@@ -1,0 +1,124 @@
+button {
+  background-color: rgba(94, 62, 45, 1);
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  font-family: opensansreg;
+  font-size: 12px;
+  transition: 0.5s;
+  overflow: visible;
+}
+
+button:hover {
+  background-color: rgba(165, 129, 82, 1);
+}
+
+h1,
+h2 {
+  font-family: mirzabold;
+  color: white;
+}
+
+.section1 {
+  background-image: url("../asset/home page/home bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 55vw;
+}
+
+.section1 h1 {
+  font-size: 6vw;
+}
+
+.blackoverlay {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 20%);
+}
+
+.section2 {
+  max-width: 750px;
+}
+
+#shopeedesc {
+  font-family: nunitoreg;
+  margin-bottom: 10px;
+}
+
+.findstore {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(149, 109, 60, 1));
+}
+
+.findstore img {
+  position: absolute;
+  bottom: 0;
+}
+
+.getintouch {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(160, 135, 109, 1));
+}
+
+.getintouch,
+.findstore {
+  border-radius: 30px;
+  min-width: 275px;
+  height: 380px;
+}
+
+@media screen and (min-width: 789px) {
+  .findstore h1 {
+    min-width: 275px;
+  }
+}
+
+#tiktok {
+  position: absolute;
+  bottom: -215px;
+  left: -10px;
+}
+
+#ig {
+  position: absolute;
+  right: 10px;
+  bottom: -140px;
+}
+
+.splash {
+  background-image: url("../asset/home page/drinks splash.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.splash h2 {
+  font-size: 17px;
+  position: relative;
+  font-family: nunitobold;
+}
+
+.splash h2:nth-child(1) {
+  top: 30px;
+  right: 300px;
+}
+
+.splash h2:nth-child(2) {
+  top: 50px;
+  left: 310px;
+}
+
+.splash h2:nth-child(3) {
+  right: 400px;
+  top: 215px;
+}
+
+.splash h2:nth-child(4) {
+  left: 310px;
+  top: 320px;
+}

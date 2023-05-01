@@ -1,0 +1,104 @@
+.search p {
+  color: black;
+}
+
+.searchbar {
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+  width: 150px;
+  height: 30px;
+  align-content: center;
+  font-family: opensansreg;
+  font-size: 12px;
+}
+
+.dropdown-toggler {
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  transform: rotate(90deg);
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  font-family: opensansreg;
+  font-size: 12px;
+}
+
+.dropdown {
+  width: 150px;
+  height: max-content;
+  background-color: rgb(177, 125, 69);
+  border-radius: 10px;
+  padding-top: 10px;
+  opacity: 0;
+  display: hidden;
+  right: 30px;
+  top: -33px;
+  transition: 0.3s;
+}
+
+.dropdown.active {
+  opacity: 1;
+  display: block;
+}
+
+.dropdown li {
+  padding: 0 10px;
+  font-family: mirzareg;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0);
+  list-style: disc inside;
+}
+
+.dropdown li:hover {
+  background-color: rgb(99, 57, 31);
+  border-radius: 10px;
+  margin: 0 1px;
+}
+
+.dropdown li.active {
+  color: rgb(58, 33, 24);
+}
+
+.dropdown span {
+  color: white;
+}
+
+button {
+  background-color: rgba(94, 62, 45, 1);
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  font-family: opensansreg;
+  font-size: 12px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(165, 129, 82, 1);
+}
+
+h3,
+h6 {
+  font-family: mirzabold;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.desc {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.wrapper {
+  background-image: linear-gradient(rgb(52, 44, 36), rgb(127, 110, 91) 40%);
+  border-radius: 20px;
+}

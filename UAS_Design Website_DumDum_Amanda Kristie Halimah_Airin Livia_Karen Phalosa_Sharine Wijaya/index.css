@@ -1,0 +1,107 @@
+@font-face {
+  font-family: mirzabold;
+  src: url("./asset/typeface/Mirza-Bold.ttf");
+}
+
+@font-face {
+  font-family: mirzareg;
+  src: url("./asset/typeface/Mirza-Regular.ttf");
+}
+
+@font-face {
+  font-family: nunitobold;
+  src: url("./asset/typeface/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: nunitoreg;
+  src: url("./asset/typeface/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensansbold;
+  src: url("./asset/typeface/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: opensansreg;
+  src: url("./asset/typeface/OpenSans-Regular.ttf");
+}
+
+html,
+body {
+  background-color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  li {
+    padding: 0 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+a:hover,
+.active {
+  color: rgb(255, 146, 60);
+}
+
+p {
+  color: white;
+  margin: 0;
+}
+
+.body {
+  background-image: url("./asset/home page/texture bg.png");
+  background-size: cover;
+}
+
+nav > ul > li > a {
+  font-family: mirzareg;
+  font-size: 19px;
+}
+
+@media screen and (min-width: 849px) {
+  nav > ul > li > a {
+    font-size: 22px;
+  }
+}
+
+.footer {
+  background-color: rgb(58, 33, 24);
+  font-family: opensansreg;
+  font-size: 10px;
+}
+
+.row2 {
+  font-family: opensansbold;
+  font-size: 12px;
+}
+
+.icon {
+  height: 14px;
+  margin: 2px;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  margin: 2px 0;
+  height: 1px;
+  color: #fff;
+  background-color: #fff;
+  opacity: 1;
+}
